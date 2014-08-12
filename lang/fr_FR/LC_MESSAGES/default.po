@@ -303,7 +303,7 @@ msgid "Use of eval()"
 msgstr "Utilisation de eval()"
 
 #: include/Checks/Badthings.php:59
-msgid "Use of PHP sytem calls"
+msgid "Use of PHP system calls"
 msgstr "Utilisation d&#39;appels systèmes PHP"
 
 #: include/Checks/Badthings.php:60
@@ -3669,7 +3669,7 @@ msgstr "Le nom \""
 #~ msgid "eval() is not allowed"
 #~ msgstr "eval() n'est pas autorisé"
 
-#~ msgid "PHP sytem calls are not allowed"
+#~ msgid "PHP system calls are not allowed"
 #~ msgstr "Les appels système PHP ne sont pas autorisés"
 
 #~ msgid "Backticks are not allowed"

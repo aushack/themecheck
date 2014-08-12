@@ -56,7 +56,7 @@ class Badthings extends Check
 			$this->title = __all("Security breaches");
 			$this->checks = array(
 						new Badthings_Checker('BADTHINGS_EVAL', TT_COMMON, ERRORLEVEL_CRITICAL, __all('Use of eval()')													, '/(?<![_|a-z0-9|\.])eval\s?\(/i', 'ut_badthings_eval.zip'),
-						new Badthings_Checker('BADTHINGS_SYSTEMCALLS', TT_COMMON, ERRORLEVEL_CRITICAL, __all('Use of PHP sytem calls')							  , '/[^a-z0-9](?<!_)(popen|proc_open|[^_]exec|shell_exec|system|passthru)\(/', 'ut_badthings_systemcalls.zip'),
+						new Badthings_Checker('BADTHINGS_SYSTEMCALLS', TT_COMMON, ERRORLEVEL_CRITICAL, __all('Use of PHP system calls')							  , '/[^a-z0-9](?<!_)(popen|proc_open|[^_]exec|shell_exec|system|passthru)\(/', 'ut_badthings_systemcalls.zip'),
 						new Badthings_Checker('BADTHINGS_BACKTICKS', TT_COMMON, ERRORLEVEL_CRITICAL, __all('Use of backticks execution operators in PHP code')					, '/`/', 'ut_badthings_backticks.zip'),
 						new Badthings_Checker('BADTHINGS_SERVERSETTINGS', TT_COMMON, ERRORLEVEL_CRITICAL, __all('Modification of PHP server settings')		, '/\s?ini_set\(/'								, 'ut_badthings_serversettings.zip'),
 						new Badthings_Checker('BADTHINGS_BASE64DEC', TT_COMMON, ERRORLEVEL_CRITICAL, __all('Use of base64_decode()')								, '/base64_decode/'								, 'ut_badthings_base64_decode.zip'),

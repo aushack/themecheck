@@ -706,8 +706,8 @@ msgstr "The name \""
 #~ msgid "Use of eval()"
 #~ msgstr "Use of eval()"
 
-#~ msgid "Use of PHP sytem calls"
-#~ msgstr "Use of PHP sytem calls"
+#~ msgid "Use of PHP system calls"
+#~ msgstr "Use of PHP system calls"
 
 #~ msgid "Use of backticks in PHP code"
 #~ msgstr "Use of backticks in PHP code"
@@ -2104,8 +2104,8 @@ msgstr "The name \""
 #~ msgid "eval() is not allowed."
 #~ msgstr "eval() is not allowed."
 
-#~ msgid "PHP sytem calls are not allowed"
-#~ msgstr "PHP sytem calls are not allowed"
+#~ msgid "PHP system calls are not allowed"
+#~ msgstr "PHP system calls are not allowed"
 
 #~ msgid "Backticks are not allowed"
 #~ msgstr "Backticks are not allowed"
